@@ -1,7 +1,11 @@
+provider "aws" {
+  region = "us-west-1"
+}
+
+
 resource "aws_instance" "ec2" {
   ami           = var.ami
   instance_type = var.instance_type
-  key_name      = "ec2.pem" 
   tags = {
     Name = var.instance_name
   }
