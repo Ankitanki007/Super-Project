@@ -9,3 +9,7 @@ variable "instance_type" {
 variable "instance_name" {
   description = "The name of the EC2 instance"
 }
+variable "region" {
+  description = "AWS region"
+  default     = "us-west-1"
+}
