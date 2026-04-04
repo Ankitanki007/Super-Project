@@ -1,5 +1,5 @@
 variable "ami" {
-  description = "The AMI ID to use for the EC2 instance"
+  description = "ami-02ff48e800d3550ab"
 }
 
 variable "instance_type" {
